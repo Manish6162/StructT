@@ -16,10 +16,11 @@ namespace StructT
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            CreateArray<int>(10, 20);
 
         }
 
-        private T[] CreateArray<T>(T firstElement, T secondElement) where T : ICloneable, new()
+        private T[] CreateArray<T>(T firstElement, T secondElement) where T :  new()
         {
             return new T[] { firstElement, secondElement };          
         }
