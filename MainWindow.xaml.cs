@@ -16,7 +16,7 @@ namespace StructT
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CreateArray<int>(10, 20);
+            CreateArray<int>(10, 30);
 
         }
 
